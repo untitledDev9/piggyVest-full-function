@@ -4,13 +4,16 @@
 
     @theme {
         --breakpoint-Laptop:1025px;
-        --breakpoint-tablet: 900px;
+        --breakpoint-tablet: 901px;
         --breakpoint-mobile: 501px;
     }
 
-  
+  * {
+
+  }
 
 body {
+    background-color: #F2F7F8;
     margin:  0;
     padding:  0;
     font-family: "Montserrat", sans-serif;

@@ -18,7 +18,7 @@ const Save = () => {
 
   return (
     <div 
-    className=' flex items-center justify-center'
+    className=' flex items-center justify-center relative max-tablet:z-20'
           onMouseEnter={() => setOpenSave(true)}
           onMouseLeave={() => setOpenSave(false)}>
     <div 
@@ -29,8 +29,11 @@ const Save = () => {
     </div>
 
     {openSave && (
-      <div className=' absolute '>
-        <div className=' bg-white grid grid-cols-2 gap-10  w-max py-5 px-8 rounded-2xl shadow-[0_4px_10px_rgba(0,0,0,0.3)]'>
+      <div className=' absolute top-6 -left-16'>
+        <div className=' bg-white grid grid-cols-2 gap-10  w-max py-10 px-8 rounded-2xl shadow-[0_4px_10px_rgba(0,0,0,0.3)]
+        
+        max-tablet:grid-cols-1 max-tablet:gap-7 max-tablet:py-8 max-tablet:px-6
+        '>
         
         <DropDownContent 
           iconBgColor='#0037ff30'
