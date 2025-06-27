@@ -1,11 +1,5 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import ButtonCard from '../reuseable/ButtonCard'
-
-
-import PiggyLogo from "../assets/logo.svg";
-import Save from '../pages/Save';
-import Resources from "../pages/Resources";
 import { RiMenuLine } from "react-icons/ri";
 import MobileMenu from '../block/MobileMenu';
 

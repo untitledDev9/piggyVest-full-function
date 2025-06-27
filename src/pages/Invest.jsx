@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../static/Header'
 import PiggyLogo from "../assets/logo.svg";
-import Save from '../pages/Save';
-import Resources from "../pages/Resources";
+import Save from './Save';
+import Resources from "./Resources";
 import ButtonCard from '../reuseable/ButtonCard';
 import { FaApple } from "react-icons/fa";
 import InvestHero from "../assets/investHeroImage.png";

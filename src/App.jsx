@@ -4,7 +4,6 @@ import HomePage from './pages/HomePage'
 import Invest from './pages/Invest'
 import Faqs from "./pages/Faqs"
 import Stories from "./pages/Stories"
-import Header from './static/Header'
 
 
 
