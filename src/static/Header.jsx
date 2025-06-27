@@ -18,11 +18,11 @@ const Header = () => {
     setMenu(prev => !prev)
   }
   return (
-    <div>
+    <div className={` w-[100%] ${menu ? 'fixed' : ""}`}>
       <nav className=' flex justify-between items-center max-w-[1280px] px-16 mx-auto py-5
-      max-Laptop:bg-amber-600 max-Laptop:px-8
-      max-tablet:bg-green-500 max-tablet:py-6
-      max-mobile:bg-blue-500
+       max-Laptop:px-8
+       max-tablet:py-6
+     
 
       '>
         <div className=' flex gap-16 justify-between items-center 

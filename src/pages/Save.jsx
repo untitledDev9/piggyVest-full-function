@@ -18,7 +18,7 @@ const Save = () => {
 
   return (
     <div 
-    className=' flex items-center justify-center relative max-tablet:z-20'
+    className=' flex items-center justify-center relative max-tablet:z-20 max-mobile:static max-mobile:block'
           onMouseEnter={() => setOpenSave(true)}
           onMouseLeave={() => setOpenSave(false)}>
     <div 
@@ -29,7 +29,9 @@ const Save = () => {
     </div>
 
     {openSave && (
-      <div className=' absolute top-6 -left-16'>
+      <div className=' absolute top-6 -left-16 bg-amber-500 z-50 
+      max-mobile:static
+      '>
         <div className=' bg-white grid grid-cols-2 gap-10  w-max py-10 px-8 rounded-2xl shadow-[0_4px_10px_rgba(0,0,0,0.3)]
         
         max-tablet:grid-cols-1 max-tablet:gap-7 max-tablet:py-8 max-tablet:px-6
@@ -37,42 +39,48 @@ const Save = () => {
         
         <DropDownContent 
           iconBgColor='#0037ff30'
-          icon= {<PiShieldBold  color='blue' size={25}/>}
+          color="blue"
+          icon= {<PiShieldBold size={25}/>}
           title="Piggybank"
           text='Automated Savings'
         />
 
         <DropDownContent 
           iconBgColor='#51cbff50'
-          icon={<MdOutlineLock size={25} color='#51CBFF'/>}
+          color='#51CBFF'
+          icon={<MdOutlineLock size={25} />}
           title='Safelock'
           text='Fixed Savings'
         />
 
         <DropDownContent 
           iconBgColor='#1cb50e2e'
-          icon={<RxTarget size={25} color='#1CB50E'/>}
+          color='#1CB50E'
+          icon={<RxTarget size={25} />}
           title='Target Savings'
           text='Goal-oriented Savings'
         />
 
         <DropDownContent 
           iconBgColor='#ff56a83b'
-          icon={<LiaWalletSolid size={25} color='#FF56A8'/>}
+          color='#FF56A8'
+          icon={<LiaWalletSolid size={25} />}
           title='Flex Naira'
           text='Flexible Savings'
         />
 
         <DropDownContent 
           iconBgColor='#1a25423f'
-          icon={<CgDollar size={25} color='#1A2542'/>}
+          color='#1A2542'
+          icon={<CgDollar size={25} />}
           title='Flex Dollar'
           text='Dollar Savings'
         />
 
         <DropDownContent 
           iconBgColor='#ff510133'
-          icon={<MdOutlineHouse size={25} color='#FF5101'/>}
+          color='#FF5101'
+          icon={<MdOutlineHouse size={25} />}
           title='House Money'
           text='Semi Strict Wallet'
         />
