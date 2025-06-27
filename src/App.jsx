@@ -13,7 +13,6 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-      <Header />
         <Routes>
           <Route path='/' element={<HomePage />}/>
           <Route path='/invest' element={<Invest />}/>

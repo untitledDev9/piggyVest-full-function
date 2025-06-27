@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const MobileMenu = () => {
   return (
-    <nav className=' pt-32 pb-20 px-16 flex flex-col justify-center items-center gap-10 text-[16px] cursor-pointer'>
+    <nav className=' pt-32 pb-20 px-16 flex flex-col justify-center items-center gap-10 text-[16px] cursor-pointer z-50'>
       <nav> <Save /> </nav>
       <Link to='/invest'><nav>Invest</nav></Link>
       <Link to='/stories'><nav>Stories</nav></Link>
@@ -18,7 +18,6 @@ const MobileMenu = () => {
         title='Sign in'
         textColor="#000"
         border='1px solid black'
-
       />
       <ButtonCard
         title='Create free account'

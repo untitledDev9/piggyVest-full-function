@@ -29,12 +29,12 @@ const Save = () => {
     </div>
 
     {openSave && (
-      <div className=' absolute top-6 -left-16 bg-amber-500 z-50 
+      <div className=' absolute top-6 -left-16 z-50 
       max-mobile:static
       '>
         <div className=' bg-white grid grid-cols-2 gap-10  w-max py-10 px-8 rounded-2xl shadow-[0_4px_10px_rgba(0,0,0,0.3)]
         
-        max-tablet:grid-cols-1 max-tablet:gap-7 max-tablet:py-8 max-tablet:px-6
+        max-tablet:grid-cols-1 max-tablet:gap-7 max-tablet:py-8 max-tablet:px-6 z-50 
         '>
         
         <DropDownContent 

@@ -16,7 +16,7 @@ const Resources = () => {
 
 	return (
 		<div
-		   className=' flex items-center justify-center relative max-tablet:z-20 max-mobile:static max-mobile:block'
+		   className=' flex items-center justify-center relative max-mobile:static max-mobile:block'
 			onMouseEnter={() => setopenResources(true)}
 			onMouseLeave={() => setopenResources(false)}>
 			<span
