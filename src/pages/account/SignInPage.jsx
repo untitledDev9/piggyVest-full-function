@@ -16,11 +16,11 @@ const SignInPage = () => {
       </div>
       <div className=' flex flex-col gap-2'>
       <label className='text-[13px] font-[600] text-[#666d7c]' htmlFor="email/phone">Email/Phone Number</label>
-      <input type="text" name='email/phone' placeholder='08123******' className=' bg-[#666d7c3d]  p-4 rounded-2xl'/>
+      <input type="text" name='email/phone' placeholder='08123******' id='email/phone' className=' bg-[#666d7c3d]  p-4 rounded-2xl placeholder-[#999999] placeholder:text-[13px] placeholder:font-bold text-black'/>
       </div>
       <div className=' flex flex-col gap-2'>
       <label className='text-[13px] font-[600] text-[#666d7c]' htmlFor="password">Your Password</label>
-      <input type="text" name='password' placeholder='******'  className=' bg-[#666d7c3d]  p-4 rounded-2xl'/>
+      <input type="text" name='password' placeholder='******' id='password'  className=' bg-[#666d7c3d]  p-4 rounded-2xl placeholder-[#999999] placeholder:text-[13px] placeholder:font-bold'/>
       </div>
       <div>
         <button className='bg-[#0d60d8] w-full p-4 rounded-2xl text-white'>Login</button>
