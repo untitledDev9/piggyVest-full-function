@@ -26,7 +26,7 @@ const SignInPage = () => {
         <button className='bg-[#0d60d8] w-full p-4 rounded-2xl text-white'>Login</button>
       </div>
       <div className='text-center flex flex-col gap-4'>
-        <p className='text-[15px] font-[600] text-[#0d60d8] cursor-pointer'>Don't have an account? <Link to='create-account'>Register!</Link></p>
+      <Link to='/create-account'><p className='text-[15px] font-[600] text-[#0d60d8] cursor-pointer'>Don't have an account? Register!</p></Link>
         <p  className='text-[15px] font-[600] text-[#595b61] cursor-pointer'>Forgot Password? Tap Here!</p>
         <p className='text-[15px] font-[600] text-[#0d60d8] cursor-pointer'>back</p>
       </div>

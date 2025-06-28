@@ -5,6 +5,7 @@ import Invest from './pages/Invest'
 import Faqs from "./pages/Faqs"
 import Stories from "./pages/Stories"
 import SignInPage from './pages/account/SignInPage'
+import CreateAccount from './pages/account/CreateAccount'
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
           <Route path='/stories' element={<Stories />}/>
           <Route path='/faqs' element={<Faqs />}/>
           <Route path='/sign-in' element={<SignInPage />}/>
+          <Route path='/create-account' element={<CreateAccount />}/>
         </Routes>
       </BrowserRouter>
     </div>

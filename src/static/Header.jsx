@@ -51,7 +51,7 @@ const Header = ({logo, linkColor, save, Invest, Stories,FAQs, Resources, button,
           <Link to='/sign-in' target='blank'>
           {button}
           </Link>
-          <Link>
+          <Link to='/create-account' target='blank'>
           {button2}
           </Link>
         </div>
