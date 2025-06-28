@@ -34,7 +34,7 @@ const Save = () => {
       '>
         <div className=' bg-white grid grid-cols-2 gap-10  w-max py-10 px-8 rounded-2xl shadow-[0_4px_10px_rgba(0,0,0,0.3)]
         
-        max-tablet:grid-cols-1 max-tablet:gap-7 max-tablet:py-8 max-tablet:px-6 z-50 
+        max-tablet:grid-cols-1 max-tablet:gap-5 max-tablet:py-6 max-tablet:px-4 z-50 
         '>
         
         <DropDownContent 
