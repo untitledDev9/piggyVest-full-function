@@ -3,8 +3,10 @@ import { IoPersonOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 const SignInPage = () => {
   return (
-    <div className=' w-full bg-white h-screen'>
-    <div className=' max-w-[600px]  mx-auto flex flex-col px-20 py-28 gap-10'>
+    <div className=' w-full bg-white h-[100%]'>
+    <div className=' max-w-[600px]  mx-auto flex flex-col px-20 py-28 gap-10
+    max-mobile:px-8 max-mobile:py-24 max-mobile:gap-5
+    '>
       <div className=' flex justify-between items-center-safe'>
         <div>
           <h1 className=' text-[35px] font-[600] text-[#222936] mb-2'>Login</h1>
