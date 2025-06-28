@@ -3,10 +3,11 @@ import { IoPersonOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 const SignInPage = () => {
   return (
-    <div className=' max-w-[700px]  mx-auto flex flex-col px-20 py-32 gap-10'>
+    <div className=' w-full bg-white h-screen'>
+    <div className=' max-w-[600px]  mx-auto flex flex-col px-20 py-28 gap-10'>
       <div className=' flex justify-between items-center-safe'>
         <div>
-          <h1 className=' text-[35px] font-[600] text-[#222936]'>Login</h1>
+          <h1 className=' text-[35px] font-[600] text-[#222936] mb-2'>Login</h1>
           <p className='text-[13px] font-[600] text-[#595b61]'>Securely login to your Piggyvest</p>
         </div>
         <div className=' rounded-full bg-[#0d60d8] p-3 h-fit'>
@@ -22,13 +23,14 @@ const SignInPage = () => {
       <input type="text" name='password' placeholder='******'  className=' bg-[#666d7c3d]  p-4 rounded-2xl'/>
       </div>
       <div>
-        <button>Login</button>
+        <button className='bg-[#0d60d8] w-full p-4 rounded-2xl text-white'>Login</button>
       </div>
-      <div>
-        <p className='text-[15px] font-[600] text-[#0d60d8]'>Don't have an account? <Link to='create-account'>Register!</Link></p>
-        <p  className='text-[15px] font-[600] text-[#595b61]'>Forgot Password? Tap Here!</p>
-        <p className='text-[15px] font-[600] text-[#0d60d8]'>back</p>
+      <div className='text-center flex flex-col gap-4'>
+        <p className='text-[15px] font-[600] text-[#0d60d8] cursor-pointer'>Don't have an account? <Link to='create-account'>Register!</Link></p>
+        <p  className='text-[15px] font-[600] text-[#595b61] cursor-pointer'>Forgot Password? Tap Here!</p>
+        <p className='text-[15px] font-[600] text-[#0d60d8] cursor-pointer'>back</p>
       </div>
+    </div>
     </div>
   )
 }
