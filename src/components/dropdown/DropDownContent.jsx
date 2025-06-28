@@ -13,7 +13,7 @@ const DropDownContent = ({iconBgColor, icon, title, text, color}) => {
         {icon}
       </div>
       <div>
-        <h1 className=' font-[500] text-[14.5px]  tracking-[.1px]'>{title}</h1>
+        <h1 className=' font-[500] text-[14.5px]  tracking-[.1px] text-[#000]'>{title}</h1>
         <p className=' text-[#595959] text-[13px]'>{text}</p>
       </div>
     </div>
