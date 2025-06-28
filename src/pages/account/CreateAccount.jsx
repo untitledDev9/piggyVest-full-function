@@ -12,7 +12,9 @@ const CreateAccount = () => {
           '>Let's get started 🎉</h1>
           <p className='text-[13px] font-[600] text-[#595b61]'>Register to start saving and investing with Piggyvest today!</p>
         </div>
-        <div className=' flex flex-col gap-16'>
+        <div className=' flex flex-col gap-16
+        max-mobile:gap-10
+        '>
           <div className=' flex flex-col gap-3'>
         <label className='text-[13px] font-[600] text-[#666d7c]' htmlFor="name">First & Last Name <span className=' text-red-600'>*</span></label>
         <input type="text" name='password' placeholder='e.g Untitled Dev' id='name'  className=' bg-[#666d7c0c]  p-4 rounded-2xl placeholder-[#999999b6] placeholder:text-[13px] placeholder:font-bold'/>
