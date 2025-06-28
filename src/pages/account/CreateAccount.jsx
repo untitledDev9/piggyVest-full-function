@@ -7,7 +7,9 @@ const CreateAccount = () => {
       max-mobile:px-10 max-mobile:py-24 max-mobile:gap-5
       '>
         <div>
-          <h1 className=' text-[35px] font-[600] text-[#222936] mb-2'>Let's get started 🎉</h1>
+          <h1 className=' text-[35px] font-[600] text-[#222936] mb-2
+          max-mobile:text-[30px]
+          '>Let's get started 🎉</h1>
           <p className='text-[13px] font-[600] text-[#595b61]'>Register to start saving and investing with Piggyvest today!</p>
         </div>
         <div className=' flex flex-col gap-16'>
