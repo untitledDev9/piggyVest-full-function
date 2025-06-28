@@ -23,7 +23,7 @@ const Header = ({logo, linkColor, save, Invest, Stories,FAQs, Resources, button,
         max-Laptop:gap-12
         '>
           <div>
-            <Link to='/'>
+            <Link to='/' className=''>
               <img src={logo} alt="" className=' w-[12rem] max-tablet:w-[10rem] ' />
             </Link>
           </div>

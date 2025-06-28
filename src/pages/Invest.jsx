@@ -1,12 +1,10 @@
 import React from 'react'
 import Header from '../static/Header'
-import PiggyLogo from "../assets/logo.svg";
+import PiggyLogo from "../assets/piggyWhite.png"
 import Save from './Save';
 import Resources from "./Resources";
 import ButtonCard from '../reuseable/ButtonCard';
-
 import InvestHero from "../pages/invest/InvestHero";
-
 import investBg from "../assets/investbg.png";
 
 const Invest = () => {
