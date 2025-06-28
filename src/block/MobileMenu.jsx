@@ -21,7 +21,7 @@ const MobileMenu = () => {
         />
       </Link>
 
-      <Link to='' target='blank' className='w-full'>
+      <Link to='/create-account' target='blank' className='w-full'>
       <ButtonCard
         title='Create free account'
         textColor="#fff"
