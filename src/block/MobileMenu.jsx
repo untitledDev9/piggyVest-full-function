@@ -13,17 +13,21 @@ const MobileMenu = () => {
       <Link to='/faqs'><nav>FAQs</nav></Link>
       <nav> <Resources /> </nav>
 
+      <Link to='/sign-in' target='blank' className='w-full'>
+        <ButtonCard
+          title='Sign in'
+          textColor="#000"
+          border='1px solid black'
+        />
+      </Link>
 
-      <ButtonCard
-        title='Sign in'
-        textColor="#000"
-        border='1px solid black'
-      />
+      <Link to='' target='blank' className='w-full'>
       <ButtonCard
         title='Create free account'
         textColor="#fff"
         bgColor='#1f1d22'
       />
+      </Link>
 
     </nav>
   )

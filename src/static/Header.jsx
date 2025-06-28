@@ -48,8 +48,12 @@ const Header = ({logo, linkColor, save, Invest, Stories,FAQs, Resources, button,
         <div className=' flex gap-4 max-tablet:hidden
         max-Laptop:gap-2
         '>
+          <Link to='/sign-in' target='blank'>
           {button}
+          </Link>
+          <Link>
           {button2}
+          </Link>
         </div>
         <div onClick={toggleMenu} className='hidden max-tablet:block cursor-pointer'>
           <RiMenuLine size={30} />
