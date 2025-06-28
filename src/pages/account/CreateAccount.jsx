@@ -2,7 +2,7 @@ import React from 'react'
 
 const CreateAccount = () => {
   return (
-    <div className=' w-full bg-white h-[100%]'>
+    <div className=' w-full bg-white h-[100vh]'>
       <div className=' max-w-[600px]  mx-auto flex flex-col px-20 py-28 gap-7
       max-mobile:px-10 max-mobile:py-24 max-mobile:gap-5
       '>
