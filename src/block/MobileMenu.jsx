@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const MobileMenu = () => {
   return (
     <nav className=' pt-20 pb-22 px-16 flex flex-col justify-center items-center gap-10 text-[16px] cursor-pointer z-50
-    max-mobile:bg-amber-400 max-mobile:pt-8
+    max-mobile:pt-8
     '>
       <nav> <Save /> </nav>
       <Link to='/invest'><nav>Invest</nav></Link>
