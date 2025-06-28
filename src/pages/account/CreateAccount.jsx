@@ -2,8 +2,10 @@ import React from 'react'
 
 const CreateAccount = () => {
   return (
-    <div className=' w-full bg-white h-screen'>
-      <div className=' max-w-[600px]  mx-auto flex flex-col px-20 py-28 gap-7'>
+    <div className=' w-full bg-white h-[100%]'>
+      <div className=' max-w-[600px]  mx-auto flex flex-col px-20 py-28 gap-7
+      max-mobile:px-10 max-mobile:py-24 max-mobile:gap-5
+      '>
         <div>
           <h1 className=' text-[35px] font-[600] text-[#222936] mb-2'>Let's get started 🎉</h1>
           <p className='text-[13px] font-[600] text-[#595b61]'>Register to start saving and investing with Piggyvest today!</p>
