@@ -6,8 +6,7 @@ import PiggyBlack from "../../assets/logo.svg"
 import Save from '../Save';
 import Resources from '../Resources';
 import ButtonCard from '../../reuseable/ButtonCard';
-import MobileMenu from '../../block/MobileMenu';
-
+import { AiOutlineApi } from "react-icons/ai";
 
 const InvestHeader = () => {
   const [menu, setMenu] = useState(false)
@@ -75,8 +74,9 @@ const InvestHeader = () => {
         <div>
           {menu && (
             <div className='w-[100%] h-screen font-[500] bg-[#F2F7F8] z-40 fixed top-0 left-0'>
-              <div onClick={() => setMenu(false)} className=' text-7xl bg-red-600'>
-                x
+              <div onClick={() => setMenu(false)} className=' py-6 flex justify-between items-center px-8 text-4xl text-red-600'>
+                <img src={PiggyBlack} alt="" />
+                <AiOutlineApi />
               </div>
               <div>
                 {/* <MobileMenu /> */}
