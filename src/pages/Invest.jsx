@@ -11,8 +11,8 @@ import SimpleInvest from './invest/SimpleInvest';
 const Invest = () => {
   return (
     <>
-      <div className='relative bg-[#7913E5]'>
-        <div className=' sticky top-0 z-50 w-full bg-[#7913E5]'>
+      
+      <div className="sticky top-0 z-50 w-full bg-[#7913E5]">
         <Header
           logo={PiggyLogo}
           linkColor='#fff'
@@ -32,18 +32,22 @@ const Invest = () => {
             bgColor='#fff'
           />}
         />
-        </div>
+      </div>
 
+      
+      <div className='relative bg-[#7913E5]'>
         <InvestHero />
-        <div className=' absolute w-[400px] right-0 bottom-0'>
+        <div className='absolute w-[400px] right-0 bottom-0'>
           <img src={investBg} alt="" />
         </div>
       </div>
+
+      
       <div>
         <SimpleInvest />
       </div>
     </>
-  )
+  );
 }
 
-export default Invest
+export default Invest;
