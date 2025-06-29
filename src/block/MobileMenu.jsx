@@ -1,14 +1,16 @@
-import React from 'react'
+
 import Save from '../pages/Save'
 import Resources from '../pages/Resources'
 import ButtonCard from '../reuseable/ButtonCard'
 import { Link } from 'react-router-dom'
-
+import Header from '../static/Header'
+import { useState } from 'react'
 const MobileMenu = () => {
   return (
-    <nav className=' pt-20 pb-22 px-16 flex flex-col justify-center items-center gap-10 text-[16px] cursor-pointer z-50
-    max-mobile:pt-8
+    <nav className=' flex flex-col justify-center items-center gap-10 px-16 pt-20 max-mobile:pt-8 pb-2 text-[16px] cursor-pointer
     '>
+
+      
       <nav> <Save /> </nav>
       <Link to='/invest'><nav>Invest</nav></Link>
       <Link to='/stories'><nav>Stories</nav></Link>

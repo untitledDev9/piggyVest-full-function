@@ -27,7 +27,7 @@ const Invest = () => {
     <>
       <title>Piggy Invest</title>
 
-      <div className={`sticky top-0 z-50 w-full ${scrolled ? 'bg-white text-black' : 'bg-[#7913E5] text-white'} transition-all duration-700 ease-in-out`}>
+      <div className={`sticky top-0 z-50 w-full ${scrolled ? 'bg-white text-black ' : 'bg-[#7913E5] text-white max-tablet:text-black'} ${scrolled ? "shadow-[0_4px_10px_rgba(0,0,0,0.2)]" : ""} transition-all duration-700 ease-in-out`}>
         <Header
           logo={scrolled ? PiggyBlack : PiggyLogo}
           linkColor={scrolled ? "#000" : "#fff"}
