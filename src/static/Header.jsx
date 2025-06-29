@@ -51,7 +51,7 @@ const Header = ({logo, linkColor, save, Invest, Stories,FAQs, Resources, button,
       <div>
         {menu && (
           <div className='w-[100%] h-screen font-[500] bg-[#F2F7F8] z-40'>
-          <div className=' bg-green-300'>
+          <div>
             <MobileMenu />
           </div>
           </div>
