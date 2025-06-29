@@ -18,16 +18,16 @@ const Invest = () => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 10);
     };
-  
+
     window.addEventListener("scroll", handleScroll);
-  
+
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
     <>
-    <title>Piggy Invest</title>
-      
-      <div className={`sticky top-0 z-50 w-full ${scrolled ? 'bg-white' : 'bg-[#7913E5]'}`}>
+      <title>Piggy Invest</title>
+
+      <div className={`sticky top-0 z-50 w-full ${scrolled ? 'bg-white text-black' : 'bg-[#7913E5] text-white'} transition-all duration-700 ease-in-out`}>
         <Header
           logo={scrolled ? PiggyBlack : PiggyLogo}
           linkColor={scrolled ? "#000" : "#fff"}
@@ -39,7 +39,7 @@ const Invest = () => {
           button={<ButtonCard
             title='Sign in'
             textColor={scrolled ? "#000" : "#fff"}
-            border={`1px solid ${scrolled?'#000':'#fff'}`}
+            border={`1px solid ${scrolled ? '#000' : '#fff'}`}
           />}
           button2={<ButtonCard
             title='Create free account'
@@ -49,15 +49,15 @@ const Invest = () => {
         />
       </div>
 
-      
+
       <div className='relative bg-[#7913E5]'>
         <InvestHero />
-        <div className='absolute w-[400px] right-0 bottom-0'>
+        <div className='right-0 bottom-0 absolute w-[400px]'>
           <img src={investBg} alt="" />
         </div>
       </div>
 
-      
+
       <div>
         <SimpleInvest />
       </div>
