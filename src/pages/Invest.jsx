@@ -6,6 +6,7 @@ import Resources from "./Resources";
 import ButtonCard from '../reuseable/ButtonCard';
 import InvestHero from "../pages/invest/InvestHero";
 import investBg from "../assets/investbg.png";
+import SimpleInvest from './invest/SimpleInvest';
 
 const Invest = () => {
   return (
@@ -37,21 +38,7 @@ const Invest = () => {
         </div>
       </div>
       <div>
-        <h1>dddd</h1>
-        <h1>dddd</h1>
-        <h1>dddd</h1>
-        <h1>dddd</h1>
-        <h1>dddd</h1>
-        <h1>dddd</h1>
-        <h1>dddd</h1>
-        <h1>dddd</h1>
-        <h1>dddd</h1>
-        <h1>dddd</h1>
-        <h1>dddd</h1>
-        <h1>dddd</h1>
-        <h1>dddd</h1>
-        <h1>dddd</h1>
-        <h1>dddd</h1>
+        <SimpleInvest />
       </div>
     </>
   )

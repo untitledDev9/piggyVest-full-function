@@ -2,7 +2,7 @@ import React from 'react'
 
 const DropDownContent = ({iconBgColor, icon, title, text, color}) => {
   return (
-    <div className=' flex items-center gap-5 mr-3
+    <div className=' flex items-center gap-5 mr-3 cursor-pointer
     max-tablet:mr-14
      hover:bg-[#b9b9b923] w-[100%] rounded-xl py-2 px-5 transition-colors duration-300 ease-in-out
     '>
