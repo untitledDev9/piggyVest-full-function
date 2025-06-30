@@ -1,10 +1,4 @@
-import React from 'react'
-import Header from '../static/Header'
-import PiggyLogo from "../assets/piggyWhite.png"
-import PiggyBlack from "../assets/logo.svg"
-import Save from './Save';
-import Resources from "./Resources";
-import ButtonCard from '../reuseable/ButtonCard';
+
 import InvestHero from "../pages/invest/InvestHero";
 import investBg from "../assets/investbg.png";
 import SimpleInvest from './invest/SimpleInvest';
@@ -19,7 +13,8 @@ const Invest = () => {
 <InvestHeader />
 
 
-      <div className='relative bg-[#7913E5]'>
+      <div className='relative bg-[#7913E5]
+      '>
         <InvestHero />
         <div className='right-0 bottom-0 absolute w-[400px]'>
           <img src={investBg} alt="" />
