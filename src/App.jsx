@@ -6,6 +6,7 @@ import Faqs from "./pages/Faqs"
 import Stories from "./pages/Stories"
 import SignInPage from './pages/account/SignInPage'
 import CreateAccount from './pages/account/CreateAccount'
+import Piggyvest_com from './pages/Piggyvest_com'
 
 
 
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='/faqs' element={<Faqs />}/>
           <Route path='/sign-in' element={<SignInPage />}/>
           <Route path='/create-account' element={<CreateAccount />}/>
+          <Route path='/Piggyvest.com' element={<Piggyvest_com />}/>
         </Routes>
       </BrowserRouter>
     </div>

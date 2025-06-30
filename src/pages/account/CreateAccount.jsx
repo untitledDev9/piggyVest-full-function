@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const CreateAccount = () => {
   return (
@@ -20,7 +21,9 @@ const CreateAccount = () => {
         <input type="text" name='password' placeholder='e.g Untitled Dev' id='name'  className=' bg-[#666d7c0c]  p-4 rounded-2xl placeholder-[#999999b6] placeholder:text-[13px] placeholder:font-bold'/>
         </div>
         <button className='bg-[#0d62d8c8] w-full p-4 rounded-2xl text-white'>Create Free Account</button>
+        <Link to="/sign-in">
         <p className='text-[15px] font-[600] text-[#0d60d8] cursor-pointer text-center'>back</p>
+        </Link>
         </div>
       </div>
     </div>
