@@ -1,7 +1,6 @@
 import React from 'react'
 import { BiLogoPlayStore } from "react-icons/bi";
 import { FaApple } from "react-icons/fa";
-import ButtonCard from '../../reuseable/ButtonCard';
 import InvestHeroImage from "../../assets/investHeroImage.png";
 
 const InvestHero = () => {
