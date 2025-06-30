@@ -67,7 +67,7 @@ const InvestHeader = () => {
             </Link>
           </div>
           <div onClick={toggleMenu} className='hidden max-tablet:block cursor-pointer'>
-            <RiMenuLine size={30} />
+            <RiMenuLine size={30} color='white' />
           </div>
         </nav>
 
