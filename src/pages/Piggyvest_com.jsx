@@ -19,7 +19,7 @@ const Piggyvest_com = () => {
           <img src={OnBoard_target} alt="" className=' w-full' />
         </div>
 
-        <div className=' text-3xl font-semibold text-white'>
+        {/* <div className=' text-3xl font-semibold text-white'> */}
           <h2>Setup multiple savings goals and reach them</h2>
         </div>
 
