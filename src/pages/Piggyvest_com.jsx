@@ -19,7 +19,7 @@ const Piggyvest_com = () => {
           <img src={OnBoard_target} alt="" className=' w-full' />
         </div>
 
-        <div>
+        <div className=' text-3xl font-semibold text-white'>
           <h2>Setup multiple savings goals and reach them</h2>
         </div>
 
@@ -30,7 +30,7 @@ const Piggyvest_com = () => {
         <div className='flex flex-col gap-3 w-full'>
           <Link to='/create-account'>
             <button
-              className=' px-4 py-3.5 rounded-[10px] text-[17px] flex gap-2 items-center font-[500] w-full justify-center text-[#021737] bg-[#fff] 
+              className=' px-4 py-3.5 rounded-[10px] text-[17px] flex gap-2 items-center font-[500] w-full justify-center text-[#021737] bg-[#fff]  cursor-pointer
                     '>
 
               Create an account
@@ -38,7 +38,7 @@ const Piggyvest_com = () => {
           </Link>
           <Link to='/sign-in'>
             <button
-              className=' px-4 py-3.5 rounded-[10px] text-[17px] flex gap-2 items-center font-[500] w-full justify-center text-white bg-[#021737]
+              className=' px-4 py-3.5 rounded-[10px] text-[17px] flex gap-2 items-center font-[500] w-full justify-center text-white bg-[#021737] cursor-pointer
                   '>
 
               Login
