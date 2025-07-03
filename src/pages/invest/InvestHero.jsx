@@ -5,11 +5,10 @@ import InvestHeroImage from "../../assets/investHeroImage.png";
 
 const InvestHero = () => {
   return (
-    <div className=' relative  max-w-[1280px] px-16 mx-auto flex pt-28 justify-between items-center
+    <div className=' relative max-w-[1280px] px-16 mx-auto flex pt-28 justify-between items-center
     max-tablet:flex-col max-tablet:w-[60%] max-tablet:text-center max-tablet:px-5
-    max-mobile:w-full
+    max-mobile:w-full max-mobile:py-20 max-mobile:gap-0
     
-
     '>
       <div className=' flex flex-col gap-5
       max-tablet:gap-0
@@ -24,15 +23,8 @@ const InvestHero = () => {
               '>Invest securely and confidently on the go. Up to 35% returns, 6-12 month duration.</p>
         <div className=' flex gap-4
               max-tablet:mx-auto max-tablet:mb-18 max-tablet:mt-16
-              max-mobile:mb-20 max-mobile:mt-14
+              max-mobile:mb-10 max-mobile:mt-10
               '>
-          {/* <ButtonCard
-                  icon={<FaApple color='#fff' size={20} />}
-                  title="Get on iPhone"
-                  textColor='#fff'
-                  bgColor='#122231'
-                  
-                /> */}
           <button className=' px-4 py-3.5 rounded-[10px] text-[15px] flex gap-2 items-center font-[500]
                         max-sLaptop:px-3 max-sLaptop:py-2 max-sLaptop:text-[16px]
                         justify-center text-white bg-[#122231]
@@ -53,22 +45,13 @@ const InvestHero = () => {
             <BiLogoPlayStore size={20} />
             Get on Andriod
           </button>
-
-
-
-          {/* <ButtonCard
-            icon={<BiLogoPlayStore size={20} />}
-            title="Get on Andriod"
-            textColor='#fff'
-            bgColor='#122231'
-          /> */}
         </div>
       </div>
       <div className=' w-[50%] flex justify-end z-10
       max-tablet:w-full max-tablet:justify-center
-      max-mobile:w-[80%]
+      max-mobile:w-[100%]
       '>
-        <img src={InvestHeroImage} alt="" className=' w-[88%]' />
+        <img src={InvestHeroImage} alt="" className=' w-[95%]' />
       </div>
     </div>
   )

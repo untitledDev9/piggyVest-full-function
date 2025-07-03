@@ -79,13 +79,17 @@ const Investify = () => {
 
 
   return (
-    <div className=' max-w-[1280px]  mb-32 mx-auto px-18 py-10 bg-red-600'>
+    <div className=' max-w-[1280px] mb-32 mx-auto px-18 py-10
+    max-mobile:py-22
+    '>
       <div className=' text-center'>
-        <h2 className=' text-[49px] mb-14 text-[#122231] font-bold'>Recent Opportunities on Investify</h2>
+        <h2 className=' text-[49px] mb-14 text-[#122231] font-bold
+        max-mobile:text-[30px] max-mobile:leading-10
+        '>Recent Opportunities on Investify</h2>
       </div>
       <div className=' flex flex-wrap justify-center items-center gap-8 mx-auto
-        max-Laptop:bg-blue-500 
         max-tablet:grid max-tablet:grid-cols-2 max-tablet:-mx-10
+        max-mobile:grid-cols-1 max-mobile:m-0
       '>
       {investCards.map(({ image, heading, price, unit, numbers, inv, btn, btnColor, btnBg }, key) => (
         <div key={key} className=' w-[350px] h-[360px] bg-white rounded-2xl flex flex-col gap-5

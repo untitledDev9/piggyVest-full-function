@@ -19,7 +19,7 @@ const SimpleInvest = () => {
     </div>
     <div className=' flex flex-wrap items-center justify-center gap-12
     max-tablet:text-center
-    max-tablet:px-5 max-tablet:gap-2
+    max-tablet:px-5 max-tablet:gap-10
     '>
       <SimpleInvestCard 
       title="Investments simplified"
