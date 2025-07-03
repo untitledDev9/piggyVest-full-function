@@ -4,6 +4,7 @@ import investBg from "../assets/investbg.png";
 import SimpleInvest from './invest/SimpleInvest';
 import InvestHeader from './invest/InvestHeader';
 import Opportunities from "./invest/Opportunities";
+import Investify from "./invest/Investify";
 
 const Invest = () => {
 
@@ -21,10 +22,11 @@ const Invest = () => {
       <div>
         <SimpleInvest />
       </div>
-      <div>
       <div className="py-32 ">
         <Opportunities />
       </div>
+      <div>
+        <Investify />
       </div>
     </>
   );
