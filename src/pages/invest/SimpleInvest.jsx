@@ -17,8 +17,9 @@ const SimpleInvest = () => {
       '>Simple investments with great returns</h1>
       <p className=' text-[#3d4f60]'>Investments are made readily accessible to everyone</p>
     </div>
-    <div className=' flex items-center justify-center gap-12
-    max-tablet:flex-wrap max-tablet:text-center
+    <div className=' flex flex-wrap items-center justify-center gap-12
+    max-tablet:text-center
+    max-tablet:px-5 max-tablet:gap-2
     '>
       <SimpleInvestCard 
       title="Investments simplified"

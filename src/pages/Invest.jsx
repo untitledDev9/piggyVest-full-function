@@ -9,7 +9,7 @@ import Investify from "./invest/Investify";
 const Invest = () => {
 
   return (
-    <>
+    <div className=" bg-amber-400 ">
       <title>Piggy Invest</title>
       <InvestHeader />
       <div className='relative bg-[#7913E5]
@@ -28,7 +28,7 @@ const Invest = () => {
       <div>
         <Investify />
       </div>
-    </>
+    </div>
   );
 }
 

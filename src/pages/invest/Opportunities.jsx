@@ -4,8 +4,12 @@ import madeEasy from "../invest/images/imgi_46_image_10ee373879.png"
 const Opportunities = () => {
   return (
     <div>
-      <div className=' flex h-[470px] bg-[#7913E5] justify-end gap-32'>
-        <div className=' w-[600px] my-auto text-white flex flex-col gap-3'>
+      <div className=' flex h-[470px] bg-[#7913E5] justify-end gap-32
+      max-Laptop:gap-5
+      '>
+        <div className=' w-[600px] my-auto text-white flex flex-col gap-3
+        max-Laptop:px-5
+        '>
           <h1 className=' text-[50px] font-semibold leading-[64px]'>
             We’ve made it easier for anyone to get started.
           </h1>
