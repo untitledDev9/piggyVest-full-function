@@ -3,16 +3,14 @@ import InvestHero from "../pages/invest/InvestHero";
 import investBg from "../assets/investbg.png";
 import SimpleInvest from './invest/SimpleInvest';
 import InvestHeader from './invest/InvestHeader';
+import Opportunities from "./invest/Opportunities";
 
 const Invest = () => {
 
   return (
     <>
       <title>Piggy Invest</title>
-
-<InvestHeader />
-
-
+      <InvestHeader />
       <div className='relative bg-[#7913E5]
       '>
         <InvestHero />
@@ -20,10 +18,13 @@ const Invest = () => {
           <img src={investBg} alt="" />
         </div>
       </div>
-
-
       <div>
         <SimpleInvest />
+      </div>
+      <div>
+      <div className="py-32 ">
+        <Opportunities />
+      </div>
       </div>
     </>
   );

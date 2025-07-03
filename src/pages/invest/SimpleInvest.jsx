@@ -7,7 +7,7 @@ import simpleThree from "../../assets/simpleThree.png"
 
 const SimpleInvest = () => {
   return (
-    <div className=' py-18 flex flex-col gap-22'>
+    <div className=' pt-18 flex flex-col gap-22'>
     <div className=' text-center
     max-mobile:gap-4 max-mobile:flex max-mobile:flex-col
     '>
