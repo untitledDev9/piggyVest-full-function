@@ -6,10 +6,11 @@ import OnBoard_target from "../assets/onboard_target.svg";
 import WhiteLogo from "../assets/white-logo.svg";
 
 const Piggyvest_com = () => {
+  const mapp = []
   return (
     <div className=' text-center bg-[#14B25A] h-screen flex flex-col justify-start items-center py-18'>
       <div className=' w-[440px] flex flex-col items-center gap-9'>
-
+{mapp.map}
 
         <div>
           <img src={WhiteLogo} alt="" />
