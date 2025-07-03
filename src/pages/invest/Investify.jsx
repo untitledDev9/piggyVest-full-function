@@ -10,7 +10,7 @@ const Investify = () => {
 
   const investCards = [
     {
-      image: { imageOne },
+      image:  imageOne,
       heading: 'CORPORATE DEBT NOTES SERIES XLVII',
       price: "₦5,000",
       unit: "per unit",
@@ -21,7 +21,7 @@ const Investify = () => {
       btnBg: "#FAF1F4"
     },
     {
-      image: { imageTwo },
+      image:  imageTwo,
       heading: 'CORPORATE DEBT NOTES SERIES XLVI',
       price: "₦5,000",
       unit: "per unit",
@@ -32,7 +32,7 @@ const Investify = () => {
       btnBg: "#FAF1F4"
     },
     {
-      image: { imageThree },
+      image:  imageThree,
       heading: 'CORPORATE DEBT NOTES SERIES XLV',
       price: "₦5,000",
       unit: "per unit",
@@ -43,7 +43,7 @@ const Investify = () => {
       btnBg: "#f1faf1"
     },
     {
-      image: { imageFour },
+      image:  imageFour,
       heading: 'CORPORATE DEBT NOTES SERIES XLIV',
       price: "₦5,000",
       unit: "per unit",
@@ -54,7 +54,7 @@ const Investify = () => {
       btnBg: "#FAF1F4"
     },
     {
-      image: { imageFive },
+      image: imageFive ,
       heading: 'CORPORATE DEBT NOTES SERIES XLIII',
       price: "₦5,000",
       unit: "per unit",
@@ -65,7 +65,7 @@ const Investify = () => {
       btnBg: "#FAF1F4"
     },
     {
-      image: { imageSix },
+      image:  imageSix,
       heading: 'CORPORATE DEBT NOTES SERIES XLII',
       price: "₦5,000",
       unit: "per unit",
@@ -79,10 +79,11 @@ const Investify = () => {
 
 
   return (
-    <div className=' max-w-[1280px] bg-amber-500 mb-32 mx-auto px-18 py-10'>
+    <div className=' max-w-[1280px]  mb-32 mx-auto px-18 py-10'>
       <div className=' text-center'>
-        <h2>Recent Opportunities on Investify</h2>
+        <h2 className=' text-[49px] mb-14 text-[#122231] font-bold'>Recent Opportunities on Investify</h2>
       </div>
+      <div className=' grid grid-cols-3 gap-8'>
       {investCards.map(({ image, heading, price, unit, numbers, inv, btn, btnColor, btnBg }, key) => (
         <div key={key} className=' w-[350px] h-[360px] bg-white rounded-2xl flex flex-col gap-5'>
           <div className=' h-[100px]'>
@@ -103,6 +104,7 @@ const Investify = () => {
           </div>
         </div>
       ))}
+      </div>
     </div>
   )
 }
