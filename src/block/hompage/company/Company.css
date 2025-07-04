@@ -5,6 +5,8 @@
     gap: 30px;
     background-color: #fff;
     padding: 5rem 0;
+    max-width: 1240px;
+    margin: auto;
 }
 
 .company-text {

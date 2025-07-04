@@ -1,6 +1,6 @@
 import React from 'react'
 import './Invest.css'
-import investPhone from "../../assets/images/iphoneInvest.png"
+import investPhone from "../../../assets/images/iphoneInvest.png"
 
 const Invest = () => {
     return (

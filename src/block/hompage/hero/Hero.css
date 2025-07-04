@@ -1,8 +1,11 @@
 .hero {
-    padding: 15rem 11rem 9rem 11rem;
+    /* padding: 10rem 11rem 9rem 7rem; */
+    padding: 46px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1240px;
+    margin: auto;
 }
 
 .top-btn {

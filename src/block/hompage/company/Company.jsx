@@ -1,11 +1,11 @@
 import React from 'react'
 import './Company.css'
-import Tech from "../../assets/icons/tech.jpg"
-import Cbn from "../../assets/icons/cbn.jpg"
-import Pymnts from "../../assets/icons/pymnts.svg"
-import Fast from "../../assets/icons/fastcompany.svg"
-import Cio from "../../assets/icons/cio.svg"
-import TechCruncg from "../../assets/icons/techcrunch.jpg"
+import Tech from "../../../assets/icons/tech.jpg"
+import Cbn from "../../../assets/icons/cbn.jpg"
+import Pymnts from "../../../assets/icons/pymnts.svg"
+import Fast from "../../../assets/icons/fastcompany.svg"
+import Cio from "../../../assets/icons/cio.svg"
+import TechCruncg from "../../../assets/icons/techcrunch.jpg"
 
 const Company = () => {
     return (

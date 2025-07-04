@@ -5,6 +5,8 @@
     align-items: center;
     gap: 80px;
     padding: 8rem 13rem;
+    max-width: 1240px;
+    margin: auto;
 }
 
 .month-text {

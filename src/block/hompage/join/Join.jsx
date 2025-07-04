@@ -1,8 +1,8 @@
 import React from 'react'
 import './Join.css'
-import FallBack from '../../assets/images/fallbackImg.png'
-import Apple from '../../assets/icons/apple.png'
-import Google from '../../assets/icons/google-play(1).png'
+import FallBack from '../../../assets/images/fallbackImg.png'
+import Apple from '../../../assets/icons/apple.png'
+import Google from '../../../assets/icons/google-play(1).png'
 
 const Join = () => {
   return (

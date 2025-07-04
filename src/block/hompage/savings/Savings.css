@@ -1,8 +1,11 @@
 
 .savings {
     padding: 0 16rem 5rem 16rem;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
+    max-width: 1240px;
+    margin: auto;
 }
 
 .savings-text {

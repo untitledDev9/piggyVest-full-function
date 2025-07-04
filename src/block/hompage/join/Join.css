@@ -6,6 +6,8 @@
     align-items: center;
     gap: 50px;
     padding: 5rem 0;
+    max-width: 1240px;
+    margin: auto;
 }
 
 .join-text {

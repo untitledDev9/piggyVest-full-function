@@ -10,6 +10,8 @@
     flex-wrap: wrap;
     width: 85%;
     margin: 0 auto;
+    max-width: 1240px;
+    margin: auto;
 }
 
 .footer-links {
@@ -97,6 +99,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-width: 1240px;
+    margin: auto;
     
     h4 {
         font-size: 11px;
