@@ -6,20 +6,20 @@ import Google from '../../../assets/icons/google-play(1).png'
 
 const Join = () => {
   return (
-    <section class="join">
-    <div class="join-img">
+    <section className="join">
+    <div className="join-img">
         <img src={FallBack} alt="" />
     </div>
-    <div class="join-text">
+    <div className="join-text">
         <h1>         
             Join 5+ million people who save and invest with us
         </h1>
-        <div class="join-btn">
-            <div class="dev-button">
+        <div className="join-btn">
+            <div className="dev-button">
                 <img src={Apple} alt="" />
                 <p>Get on iPhone</p>
             </div>
-            <div class="dev-button">
+            <div className="dev-button">
                 <img src={Google} alt="" />
                 <p>Get on Andriod</p>
             </div>

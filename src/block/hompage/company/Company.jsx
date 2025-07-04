@@ -9,6 +9,7 @@ import TechCruncg from "../../../assets/icons/techcrunch.jpg"
 
 const Company = () => {
     return (
+        <main className='mainBg'>
         <section className="company">
             <div className="company-text">
                 <h1>As featured in</h1>
@@ -22,6 +23,7 @@ const Company = () => {
                 <img src={Cio} alt="" className='cio' />
             </div>
         </section>
+        </main>
     )
 }
 

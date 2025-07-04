@@ -1,6 +1,12 @@
 
 /* footer section */
-.fut-footer{background-color: #fff;}
+.fut-footer{background-color: #ffffff;
+
+}
+
+.mainBg {
+    background-color: rgb(255, 255, 255);
+}
 
 .footer {
     margin-bottom: 5rem;
@@ -12,6 +18,7 @@
     margin: 0 auto;
     max-width: 1240px;
     margin: auto;
+    /* background-color: rebeccapurple; */
 }
 
 .footer-links {
@@ -95,12 +102,13 @@
 .bottom-fut {
     background-color: #ffffff;
     /* height: 500px; */
-    padding: 90px 11rem;
+    padding: 90px 1rem;
     display: flex;
     flex-direction: column;
     gap: 20px;
     max-width: 1240px;
     margin: auto;
+    /* background-color: red; */
     
     h4 {
         font-size: 11px;
