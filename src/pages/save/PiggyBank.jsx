@@ -4,6 +4,7 @@ import PiggyHeroImage from "./images/imgi_17_PB_18_big_ddae2e966c.png";
 import NavPages from '../../components/pages/NavPages';
 import Opportunities from '../invest/Opportunities';
 import opporImage from "./images/imgi_37_image_ca24bb2340.png";
+import Footer from '../../block/footer/Footer';
 
 
 const PiggyBank = () => {
@@ -23,6 +24,8 @@ const PiggyBank = () => {
       desc="With Piggybank, you can save periodically, automatically or manually. You can also save as you go, on your own terms. You’re the boss of your savings, choose how you want to save."
       image={opporImage}
       />
+
+      <Footer />
     </div>
   )
 }

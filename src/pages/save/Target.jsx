@@ -4,6 +4,7 @@ import TargetHeroImage from "./images/imgi_17_i_Phone_14_target_6162ef9624_27e8f
 import TargerLogo from "../../assets/target-logo.svg";
 import opporImage from "./images/imgi_47_image_66819700ec.png"
 import Opportunities from '../invest/Opportunities';
+import Footer from '../../block/footer/Footer';
 const Target = () => {
   return (
     <div>
@@ -22,6 +23,9 @@ const Target = () => {
         desc="Got a savings goal in mind? We’ll help you reach it! Saving for a new phone? Check. Dad’s surprise birthday? Check. A new car, special vacation? Check and check. Target Savings helps you reach all your savings goals easily and faster."
         image={opporImage}
       />
+
+
+      <Footer />
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import NavPages from '../../components/pages/NavPages'
 import HouseLogo from "../../assets/orange-logo.svg"
 import HouseHeroImage from "./images/imgi_16_house_money_2_4073dd98b5.png"
-
+import Footer from "../../block/footer/Footer"
 const HouseMoney = () => {
   return (
     <div>
@@ -14,6 +14,8 @@ const HouseMoney = () => {
         desc='Semi-strict wallet to save for your house rent and bills. Earn up to 14% interest p.a'
         image={HouseHeroImage}
       />
+
+      <Footer />
     </div>
   )
 }

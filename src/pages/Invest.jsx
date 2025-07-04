@@ -6,6 +6,7 @@ import Investify from "./invest/Investify";
 import NavPages from "../components/pages/NavPages";
 import InvestHero from "./invest/images/imgi_16_i_Phone_14_invest_67e86f3edf_761a6d7c25.png";
 import madeEasy from "./invest/images/imgi_46_image_10ee373879.png";
+import Footer from '../block/footer/Footer';
 const Invest = () => {
 
   return (
@@ -35,6 +36,11 @@ const Invest = () => {
       <div>
         <Investify />
       </div>
+
+
+
+
+      <Footer />
     </div>
   );
 }

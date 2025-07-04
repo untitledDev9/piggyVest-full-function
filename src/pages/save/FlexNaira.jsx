@@ -4,6 +4,7 @@ import FlexLogo from "../../assets/flex-logo.svg"
 import FlexeroImage from "./images/imgi_17_i_Phone_14_flex_2d263d08a6_053045d9b9.png"
 import Opportunities from '../invest/Opportunities'
 import opporImage from "./images/imgi_24_image_e9186b5e07.png"
+import Footer from '../../block/footer/Footer'
 const FlexNaira = () => {
   return (
     <div>
@@ -22,6 +23,8 @@ const FlexNaira = () => {
         desc="Give your emergency funds a boost! We know that emergencies can happen anytime. Building an emergency fund in Flex Naira helps you to stay ahead, so you can avoid borrowing or extra financial burden when there is a crisis. Best of all, you earn interests."
         image={opporImage}
       />
+
+      <Footer />
     </div>
   )
 }

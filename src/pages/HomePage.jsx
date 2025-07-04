@@ -10,6 +10,7 @@ import SaveLock from "../pages/save/SaveLock";
 import FlexNaira from "../pages/save/FlexNaira";
 import FlexDollar from "../pages/save/FlexDollar";
 import HouseMoney from "../pages/save/HouseMoney";
+import Footer from '../block/footer/Footer';
 
 
 
@@ -48,6 +49,9 @@ const HomePage = () => {
         <FlexNaira />
         <FlexDollar />
       </div> */}
+      
+
+      <Footer />
     </>
   )
 }
