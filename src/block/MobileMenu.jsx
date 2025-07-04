@@ -15,6 +15,7 @@ const MobileMenu = () => {
       <Link to='/stories'><nav>Stories</nav></Link>
       <Link to='/faqs'><nav>FAQs</nav></Link>
       <nav> <Resources /> </nav>
+      <Link to='/store'><nav>Store</nav></Link>
 
       <Link to='/sign-in' target='blank' className='w-full'>
         <ButtonCard

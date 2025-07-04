@@ -46,6 +46,7 @@ const InvestHeader = () => {
                 <Link to='/stories'><nav>Stories</nav></Link>
                 <Link to='/faqs'><nav>FAQs</nav></Link>
                 <nav> <Resources /> </nav>
+                <Link to='/store'><nav>Store</nav></Link>
 
               </nav>
             </div>
@@ -66,8 +67,8 @@ const InvestHeader = () => {
               />
             </Link>
           </div>
-          <div onClick={toggleMenu} className='hidden max-tablet:block cursor-pointer'>
-            <RiMenuLine size={30} color='white' />
+          <div onClick={toggleMenu} className={`hidden max-tablet:block cursor-pointer ${scrolled ? 'text-black' : 'text-white'}`}>
+            <RiMenuLine size={30}  />
           </div>
         </nav>
 
@@ -87,6 +88,7 @@ const InvestHeader = () => {
                   <Link to='/stories'><nav>Stories</nav></Link>
                   <Link to='/faqs'><nav>FAQs</nav></Link>
                   <nav> <Resources /> </nav>
+                  <Link to='/store'><nav>Store</nav></Link>
 
                   <Link to='/sign-in' target='blank' className='w-full'>
                     <ButtonCard

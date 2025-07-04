@@ -18,6 +18,7 @@ const HomePage = () => {
         Stories='Stories'
         FAQs='FAQs'
         Resources= {<Resources />}
+        Store="Store"
         button={<ButtonCard 
           title='Sign in'
           textColor="#000"

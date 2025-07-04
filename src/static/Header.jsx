@@ -6,7 +6,7 @@ import MobileMenu from '../block/MobileMenu';
 
 
 
-const Header = ({logo, linkColor, save, Invest, Stories,FAQs, Resources, button, button2}) => {
+const Header = ({logo, linkColor, save, Invest, Stories,FAQs, Resources, Store, button, button2}) => {
   const [menu, setMenu] = useState(false)
   const toggleMenu = () => {
     setMenu(prev => !prev)
@@ -31,7 +31,7 @@ const Header = ({logo, linkColor, save, Invest, Stories,FAQs, Resources, button,
               <Link to='/stories'><nav>{Stories}</nav></Link>
               <Link to='/faqs'><nav>{FAQs}</nav></Link>
               <nav> {Resources} </nav>
-
+              <Link to='/store'><nav>{Store}</nav></Link>
             </nav>
           </div>
         </div>

@@ -89,7 +89,7 @@ const Investify = () => {
       </div>
       <div className=' flex flex-wrap justify-center items-center gap-8 mx-auto
         max-tablet:grid max-tablet:grid-cols-2 max-tablet:-mx-10
-        max-mobile:grid-cols-1 max-mobile:m-0
+        max-mobile:grid-cols-1 max-mobile:m-0 max-mobile:place-items-center
       '>
       {investCards.map(({ image, heading, price, unit, numbers, inv, btn, btnColor, btnBg }, key) => (
         <div key={key} className=' w-[350px] h-[360px] bg-white rounded-2xl flex flex-col gap-5
