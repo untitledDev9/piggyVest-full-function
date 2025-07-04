@@ -5,7 +5,7 @@ import Opportunities from "./invest/Opportunities";
 import Investify from "./invest/Investify";
 import NavPages from "../components/pages/NavPages";
 import InvestHero from "./invest/images/imgi_16_i_Phone_14_invest_67e86f3edf_761a6d7c25.png";
-
+import madeEasy from "./invest/images/imgi_46_image_10ee373879.png";
 const Invest = () => {
 
   return (
@@ -25,7 +25,12 @@ const Invest = () => {
       <div className="py-32 
       max-mobile:py-18
       ">
-        <Opportunities />
+        <Opportunities 
+        bgColor='#7913E5'
+        heading='We’ve made it easier for anyone to get started.'
+        desc='Finally, you can access pre-vetted low-medium risk primary and secondary investment opportunities easily with any amount you have. No hidden fees/charges. Thorough due diligence and pre-vetting on all investments are carried out for maximum safety.'
+        image={madeEasy}
+        />
       </div>
       <div>
         <Investify />

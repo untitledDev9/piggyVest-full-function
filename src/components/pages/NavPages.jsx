@@ -19,7 +19,7 @@ const NavPages = ({logo, mainBg, mainText, text, desc, image}) => {
 
         <div className='  relative max-w-[1280px] px-16 mx-auto flex pt-28 justify-between items-center
           max-tablet:flex-col max-tablet:w-[60%] max-tablet:text-center max-tablet:px-5
-          max-mobile:w-full max-mobile:py-20 max-mobile:gap-0          
+          max-mobile:w-full max-mobile:gap-0          
           '>
           <div className=' flex flex-col gap-5
             max-tablet:gap-0
