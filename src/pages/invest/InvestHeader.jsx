@@ -8,7 +8,7 @@ import Resources from '../Resources';
 import ButtonCard from '../../reuseable/ButtonCard';
 import { AiOutlineApi } from "react-icons/ai";
 
-const InvestHeader = () => {
+const InvestHeader = ({bgColor, logo}) => {
   const [menu, setMenu] = useState(false)
   const toggleMenu = () => {
     setMenu(prev => !prev)
@@ -26,13 +26,18 @@ const InvestHeader = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <div className={`sticky top-0 z-50 w-full ${scrolled ? 'bg-white text-black ' : 'bg-[#7913E5] text-white max-tablet:text-black'} ${scrolled ? "shadow-[0_4px_10px_rgba(0,0,0,0.2)]" : ""} transition-all duration-700 ease-in-out`}>
+    <div 
+    style={{
+      backgroundColor: (`${scrolled ? "#fff" : bgColor}`) || (`${scrolled ? "#fff" : "#7913E5"}`),
+      color:`${scrolled ? "#000" : "#fff"}`,
+    }}
+    className={`sticky top-0 z-50 w-full text-black max-tablet:text-black'} ${scrolled ? "shadow-[0_4px_10px_rgba(0,0,0,0.2)]" : ""} transition-all duration-700 ease-in-out`}>
       <div className={` w-[100%] ${menu ? 'fixed' : ""} z-50 `}>
         <nav className='flex justify-between items-center mx-auto px-16 max-Laptop:px-8 py-5 max-tablet:py-6 max-w-[1280px]'>
           <div className='flex justify-between items-center gap-16 max-Laptop:gap-12'>
             <div>
               <Link to='/' className=''>
-                <img src={scrolled ? PiggyBlack : PiggyWhite} alt="" className='w-[12rem] max-tablet:w-[10rem]' />
+                <img src={scrolled ? logo : PiggyWhite || (scrolled ? PiggyBlack : PiggyWhite)} alt="" className='w-[12rem] max-tablet:w-[10rem]' />
               </Link>
             </div>
             <div>

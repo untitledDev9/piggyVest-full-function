@@ -4,11 +4,12 @@ import PiggyLogo from "../assets/logo.svg";
 import Save from '../pages/Save';
 import Resources from "../pages/Resources";
 import ButtonCard from '../reuseable/ButtonCard';
-
-
+import Target from './save/Target';
+import AllSaveBody from "../pages/save/resuseable/AllSaveBody";
 
 const HomePage = () => {
   return (
+    <>
     <div className=' '>
         <Header 
         logo={PiggyLogo}
@@ -30,8 +31,12 @@ const HomePage = () => {
           bgColor='#1f1d22'
         />}
         />
-
     </div>
+
+    <div>
+<AllSaveBody />
+    </div>
+</>
   )
 }
 
