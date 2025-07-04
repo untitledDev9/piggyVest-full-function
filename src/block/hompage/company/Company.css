@@ -1,0 +1,35 @@
+
+.company {
+    text-align: center;
+    display: grid;
+    gap: 30px;
+    background-color: #fff;
+    padding: 5rem 0;
+}
+
+.company-text {
+
+    h1 {
+        font-size: 33px;
+        font-weight: 700;
+        color: rgb(18,34,49);
+    }
+}
+
+.company-icon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+    img {
+        width: 120px;
+    }
+}
+
+.company-icon .cio {
+    width: 70px;
+}

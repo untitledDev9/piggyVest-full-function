@@ -1,0 +1,207 @@
+.invest {
+    background-color: #ffffff;
+    padding: 170px 0;
+    display: grid;
+    gap: 74px;
+}
+
+.invest-text {
+    text-align: center;
+
+    h1 {
+        font-size: 51px;
+        font-weight: 700;
+        color: rgb(18,34,49);
+    }
+
+    p {
+        font-size: 24px;
+        color: rgb(61, 79, 96);
+    }
+}
+
+.invest-card {
+    background-color: #7913E5;
+    border-radius: 30px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 40px 50px 0 50px;
+    height: 478px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card-text {
+    display: grid;
+    gap: 30px;
+
+
+    h1 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(254,214,241);
+        width: 45%;
+        line-height: 25px;
+    }
+}
+
+.card-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+
+    p {
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+    }
+}
+.inn svg {
+    /* fill: #33ff00; */
+    stroke: #ffffff;
+    width: 20px;
+    height: 20px;
+}
+
+.card-device {
+
+
+    img {
+        width: 440px;
+        height: 438px;
+    }
+}
+
+
+
+@media (max-width: 1320px) {
+    .card-text {
+        display: grid;
+        gap: 20px;
+
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #fff;
+        }
+    
+        p {
+            font-size: 20px;
+            font-weight: 400;
+            color: rgb(254,214,241);
+            width: 80%;
+            line-height: 28px;
+        }
+    }
+}
+
+
+
+@media (max-width: 1126px) {
+    .invest-card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        height: max-content;
+        gap: 40px;
+    }
+    
+    .card-text {
+    
+        p {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+    
+    .card-content {
+        display: grid;
+        gap: 20px;
+    }
+    
+    .card-link {
+        margin: 0 auto;
+    }
+    
+    
+    }
+
+
+    @media (max-width: 900px) {
+    .invest {
+        padding: 70px 0;
+        gap: 54px;
+    }
+    
+
+    .invest-card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
+        height: fit-content;
+        padding: 20px 30px 0 30px;
+        gap: 40px;
+    }
+    
+    .card-text {
+
+        h1 {
+            font-size: 30px;
+        }
+    
+        p {
+            font-size: 16px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+    
+    .card-content {
+        display: grid;
+        gap: 20px;
+    }
+    
+    .card-link {
+        margin: 0 auto;
+    }
+
+    .invest-text {
+        display: grid;
+        gap: 10px;
+    
+        h1 {
+            font-size: 32px;
+        }
+    
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .card-device {
+
+
+        img {
+            width: 300px;
+            height: 330px;
+        }
+    }
+    }

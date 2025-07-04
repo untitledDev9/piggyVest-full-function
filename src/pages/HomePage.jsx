@@ -4,13 +4,13 @@ import PiggyLogo from "../assets/logo.svg";
 import Save from '../pages/Save';
 import Resources from "../pages/Resources";
 import ButtonCard from '../reuseable/ButtonCard';
-import Target from './save/Target';
-import PiggyBank from "../pages/save/PiggyBank";
-import SaveLock from "../pages/save/SaveLock";
-import FlexNaira from "../pages/save/FlexNaira";
-import FlexDollar from "../pages/save/FlexDollar";
-import HouseMoney from "../pages/save/HouseMoney";
-import Footer from '../block/footer/Footer';
+// import Company from "../block/hompage/company/Company";
+import Hero from "../block/hompage/hero/Hero";
+// import Invest from "../block/hompage/invest/Invest";
+// import Join from "../block/hompage/join/Join";
+// import Month from "../block/hompage/month/Month";
+// import Savings from "../block/hompage/savings/Savings";
+// import Footer from '../block/footer/Footer';
 
 
 
@@ -40,18 +40,15 @@ const HomePage = () => {
           />}
         />
       </div>
-
-      {/* <div>
-        <HouseMoney />
-        <SaveLock />
-        <PiggyBank />
-        <Target />
-        <FlexNaira />
-        <FlexDollar />
-      </div> */}
-      
-
-      <Footer />
+      <div>
+        <Hero />
+        {/* <Savings />
+        <Invest />
+        <Month />
+        <Join />
+        <Company />
+        <Footer /> */}
+      </div>
     </>
   )
 }

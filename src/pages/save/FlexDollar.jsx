@@ -3,7 +3,7 @@ import NavPages from '../../components/pages/NavPages'
 import FlexDollarHeroImage from "./images/imgi_17_i_Phone_14_dollar_aaf7816ad9_171687cb90.png"
 import Opportunities from '../invest/Opportunities'
 import opporImage from "./images/imgi_47_image_66819700ec.png"
-import Footer from '../../assets/Footer'
+import Footer from '../../block/footer/Footer'
 const FlexDollar = () => {
   return (
     <div>
