@@ -13,7 +13,7 @@ const Invest = () => {
       <title>Piggy Invest</title>
       <InvestHeader />
       <div className='relative bg-[#7913E5]
-      max-mobile:h-[72.5vh]
+      max-mobile:h-[100%]
       '>
         <InvestHero />
         <div className='right-0 bottom-0 absolute w-[400px]

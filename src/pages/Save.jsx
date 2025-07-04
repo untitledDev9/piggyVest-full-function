@@ -7,6 +7,7 @@ import { RxTarget } from "react-icons/rx";
 import { LiaWalletSolid } from "react-icons/lia";
 import { CgDollar } from "react-icons/cg";
 import { MdOutlineHouse } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 const Save = () => {
   const [openSave, setOpenSave] = useState(false)
@@ -53,6 +54,7 @@ const Save = () => {
           text='Fixed Savings'
         />
 
+<Link to='/target'>
         <DropDownContent 
           iconBgColor='#1cb50e2e'
           color='#1CB50E'
@@ -60,7 +62,7 @@ const Save = () => {
           title='Target Savings'
           text='Goal-oriented Savings'
         />
-
+</Link>
         <DropDownContent 
           iconBgColor='#ff56a83b'
           color='#FF56A8'

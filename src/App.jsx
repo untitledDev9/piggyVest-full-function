@@ -8,6 +8,7 @@ import SignInPage from './pages/account/SignInPage'
 import CreateAccount from './pages/account/CreateAccount'
 import Piggyvest_com from './pages/Piggyvest_com'
 import Store from './pages/Store'
+import Target from './pages/save/Target'
 
 
 
@@ -25,6 +26,7 @@ const App = () => {
           <Route path='/sign-in' element={<SignInPage />}/>
           <Route path='/create-account' element={<CreateAccount />}/>
           <Route path='/Piggyvest.com' element={<Piggyvest_com />}/>
+          <Route path='/target' element={<Target />}/>
         </Routes>
       </BrowserRouter>
     </div>
