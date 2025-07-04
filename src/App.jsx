@@ -9,6 +9,11 @@ import CreateAccount from './pages/account/CreateAccount'
 import Piggyvest_com from './pages/Piggyvest_com'
 import Store from './pages/Store'
 import Target from './pages/save/Target'
+import HouseMoney from './pages/save/HouseMoney'
+import PiggyBank from './pages/save/PiggyBank'
+import SaveLock from './pages/save/SaveLock'
+import FlexDollar from './pages/save/FlexDollar'
+import FlexNaira from './pages/save/FlexNaira'
 
 
 
@@ -27,6 +32,11 @@ const App = () => {
           <Route path='/create-account' element={<CreateAccount />}/>
           <Route path='/Piggyvest.com' element={<Piggyvest_com />}/>
           <Route path='/target' element={<Target />}/>
+          <Route path='/house-money' element={<HouseMoney />}/>
+          <Route path='/piggy-bank' element={<PiggyBank />}/>
+          <Route path='/save-lock' element={<SaveLock />}/>
+          <Route path='/flex-dollar' element={<FlexDollar />}/>
+          <Route path='/flex-naira' element={<FlexNaira />}/>
         </Routes>
       </BrowserRouter>
     </div>
