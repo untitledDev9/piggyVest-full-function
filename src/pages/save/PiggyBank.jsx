@@ -1,18 +1,17 @@
 import React from 'react'
-import ButtonCard from '../../../reuseable/ButtonCard'
-import TargetHeroImage from "../images/imgi_17_i_Phone_14_target_6162ef9624_27e8f7a345.png"
+import PiggyBankLogo from "../../assets/logo-alt.svg";
+import PiggyHeroImage from "./images/imgi_17_PB_18_big_ddae2e966c.png";
+import InvestHeader from '../invest/InvestHeader';
 import { BiLogoPlayStore } from "react-icons/bi";
 import { FaApple } from "react-icons/fa";
-import InvestHeader from '../../invest/InvestHeader';
-import TargerLogo from "../../../assets/target-logo.svg";
 
-const AllSaveBody = () => {
+const PiggyBank = () => {
   return (
     <div>
-      <section className='bg-[#10B259]'>
+      <section className='bg-[#0D60D8]'>
         <InvestHeader
-          bgColor='#10B259'
-          logo={TargerLogo}
+          bgColor='#0D60D8'
+          logo={PiggyBankLogo}
         />
         <div className='  relative max-w-[1280px] px-16 mx-auto flex pt-28 justify-between items-center
           max-tablet:flex-col max-tablet:w-[60%] max-tablet:text-center max-tablet:px-5
@@ -22,14 +21,14 @@ const AllSaveBody = () => {
           <div className=' flex flex-col gap-5
             max-tablet:gap-0
             '>
-            <h1 className=' text-[48px] text-white font-[700]'>Target Savings</h1>
+            <h1 className=' text-[48px] text-white font-[700]'>Piggybank</h1>
             <button className=' mb-5 w-fit text-[17px] text-[#7913e5] font-[400] bg-white py-2.5 px-4 rounded-[17px]
                     max-tablet:mx-auto
-                    '>Goal-oriented Savings</button>
+                    '>Automated savings</button>
             <p className=' w-[60%] text-[20px] text-white font-[400] leading-[32px]
                     max-tablet:w-[80%] max-tablet:mx-auto
                     max-mobile:text-[18px]
-                    '>Invest securely and confidently on the go. Up to 35% returns, 6-12 month duration.</p>
+                    '>Strict daily, weekly or monthly automatic savings. Earn up to 18% p.a.</p>
             <div className=' flex gap-4
                     max-tablet:mx-auto max-tablet:mb-18 max-tablet:mt-16
                     max-mobile:mb-10 max-mobile:mt-10
@@ -60,40 +59,13 @@ const AllSaveBody = () => {
             max-tablet:w-full max-tablet:justify-center
             max-mobile:w-[100%]
             '>
-            <img src={TargetHeroImage} alt="" className=' w-[95%]' />
+            <img src={PiggyHeroImage} alt="" className=' w-[95%]' />
           </div>
 
         </div>
       </section>
-      <div>
-        <div>
-          <h1>Save towards multiple goals</h1>
-          <p>Target Savings helps you get there faster. You can even team up with others to reach a collective target.</p>
-        </div>
-        <div>
-          <div>
-            <div>
-              <h1>
-                Your target(s), your rules
-              </h1>
-              <p>
-                Customise the rules and duration of your target savings as you wish. From public mode, automated savings, to multiple targets, you’re in control.
-              </p>
-            </div>
-            <div>
-              {/* <img src="" alt="" /> */}
-            </div>
-          </div>
-          <div>2</div>
-          <div>3</div>
-        </div>
-        <div>
-          <div>text</div>
-          <div>image</div>
-        </div>
-      </div>
     </div>
   )
 }
 
-export default AllSaveBody
+export default PiggyBank

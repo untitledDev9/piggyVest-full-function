@@ -6,7 +6,8 @@ import Resources from "../pages/Resources";
 import ButtonCard from '../reuseable/ButtonCard';
 import Target from './save/Target';
 import AllSaveBody from "../pages/save/resuseable/AllSaveBody";
-
+import PiggyBank from "../pages/save/PiggyBank";
+import  SaveLock from "../pages/save/SaveLock";
 const HomePage = () => {
   return (
     <>
@@ -34,6 +35,8 @@ const HomePage = () => {
     </div>
 
     <div>
+      <SaveLock />
+<PiggyBank />
 <AllSaveBody />
     </div>
 </>
