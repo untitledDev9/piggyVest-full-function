@@ -1,27 +1,24 @@
 
-import InvestHero from "../pages/invest/InvestHero";
-import investBg from "../assets/investbg.png";
 import SimpleInvest from './invest/SimpleInvest';
-import InvestHeader from './invest/InvestHeader';
+import InvestLogo from "../assets/investify-logo.svg";
 import Opportunities from "./invest/Opportunities";
 import Investify from "./invest/Investify";
+import NavPages from "../components/pages/NavPages";
+import InvestHero from "./invest/images/imgi_16_i_Phone_14_invest_67e86f3edf_761a6d7c25.png";
 
 const Invest = () => {
 
   return (
     <div className="  ">
       <title>Piggy Invest</title>
-      <InvestHeader />
-      <div className='relative bg-[#7913E5]
-      max-mobile:h-[100%]
-      '>
-        <InvestHero />
-        <div className='right-0 bottom-0 absolute w-[400px]
-        max-mobile:w-[300px]
-        '>
-          <img src={investBg} alt="" />
-        </div>
-      </div>
+      <NavPages
+        logo={InvestLogo}
+        mainBg='#7913E5'
+        mainText='Invest on the go'
+        text='Up to 35% returns'
+        desc='Invest securely and confidently on the go. Up to 35% returns, 6-12 month duration.'
+        image={InvestHero}
+      />
       <div>
         <SimpleInvest />
       </div>

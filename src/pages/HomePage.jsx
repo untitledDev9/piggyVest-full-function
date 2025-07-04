@@ -40,14 +40,14 @@ const HomePage = () => {
         />
       </div>
 
-      <div>
+      {/* <div>
         <HouseMoney />
         <SaveLock />
         <PiggyBank />
         <Target />
         <FlexNaira />
         <FlexDollar />
-      </div>
+      </div> */}
     </>
   )
 }
