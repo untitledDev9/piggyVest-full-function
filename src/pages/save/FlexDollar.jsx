@@ -4,10 +4,12 @@ import FlexDollarHeroImage from "./images/imgi_17_i_Phone_14_dollar_aaf7816ad9_1
 import Opportunities from '../invest/Opportunities'
 import opporImage from "./images/imgi_47_image_66819700ec.png"
 import Footer from '../../block/footer/Footer'
+import blackLogo from "../../assets/logo.svg"
 const FlexDollar = () => {
   return (
     <div>
       <NavPages
+      logo={blackLogo}
         mainBg='#0C1825'
         mainText='Flex Dollar'
         text='Dollar Savings'
@@ -16,6 +18,7 @@ const FlexDollar = () => {
       />
 
       <Opportunities
+      
         heading="Preserve the value of your money"
         bgColor="#0C1825"
         desc="One of the key elements in wealth management is preserving (and growing) the value of your savings. In simple terms, this means not losing value on your savings. Saving in foreign currencies like Dollars helps to hedge against that."
