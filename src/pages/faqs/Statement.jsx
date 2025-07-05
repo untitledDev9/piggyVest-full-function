@@ -54,16 +54,16 @@ return (
 
 
     {questions.map((question, index) => (
-      <div  className=' max-w-[1240px] mx-auto'>
-        <div onClick={() => toggleDrop(index)} key={index} className=' flex justify-between items-center border-b-1 border-gray-300 pb-3.5 pt-6 px-7'>
-          <h2 className='px-6 text-4xl font-semibold'>{question.title}</h2>
+      <div key={index}  className=' max-w-[1240px] mx-auto'>
+        <div onClick={() => toggleDrop(index)}  className=' flex justify-between items-center border-b-1 border-gray-300 pb-3.5 pt-6 px-7'>
+          <h2 className='px-6 text-4xl font-semibold max-mobile:text-2xl max-mobile:px-0'>{question.title}</h2>
           <div><FaChevronDown size={30} /></div>
         </div>
         
         {dropDown === index && (
-          <div className=" flex flex-col gap-5 px-22 mt-3 pb-5  pt-2 text-[15px] text-gray-800">
+          <div className=" flex flex-col gap-5 px-22 mt-3 pb-5  pt-2 text-[15px] text-gray-800 max-mobile:px-3">
             <p className=' text-2xl font-semibold'>{question.answer.head}</p>
-            <p className=' w-[70%] text-xl'>{question.answer.desc}</p>
+            <p className=' w-[70%] text-xl max-mobile:w-full'>{question.answer.desc}</p>
           </div>
         )}
         </div>
