@@ -27,7 +27,7 @@ const Opportunities = ({heading, desc, image, bgColor}) => {
             {desc}
           </p>
         </div>
-        <div className="bg-blue-400 w-[40%] h-[380px] flex justify-end 
+        <div className="w-[40%] h-[380px] flex justify-end 
         max-mobile:justify-center max-mobile:w-full
         ">
           <img src={image} alt="" className="h-[430px] w-full object-cover
