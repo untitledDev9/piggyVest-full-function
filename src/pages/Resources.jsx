@@ -7,6 +7,7 @@ import { RxTarget } from "react-icons/rx";
 import { LiaWalletSolid } from "react-icons/lia";
 import { CgDollar } from "react-icons/cg";
 import { MdOutlineHouse } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 
 
@@ -58,13 +59,13 @@ const Resources = () => {
 							icon={<LiaWalletSolid size={25} color='#FF56A8' />}
 							title='Calculator'
 						/>
-
+<Link to='/news-letter'>
 						<DropDownContent
 							iconBgColor='#1a25423f'
 							icon={<CgDollar size={25} color='#1A2542' />}
 							title='Newsletter'
 						/>
-
+</Link>
 						<DropDownContent
 							iconBgColor='#ff510133'
 							icon={<MdOutlineHouse size={25} color='#FF5101' />}

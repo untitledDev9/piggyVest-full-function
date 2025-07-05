@@ -14,6 +14,7 @@ import PiggyBank from './pages/save/PiggyBank'
 import SaveLock from './pages/save/SaveLock'
 import FlexDollar from './pages/save/FlexDollar'
 import FlexNaira from './pages/save/FlexNaira'
+import Newsletter from './pages/resource/Newsletter'
 
 
 
@@ -37,6 +38,7 @@ const App = () => {
           <Route path='/save-lock' element={<SaveLock />}/>
           <Route path='/flex-dollar' element={<FlexDollar />}/>
           <Route path='/flex-naira' element={<FlexNaira />}/>
+          <Route path='//news-letter' element={<Newsletter />}/>
         </Routes>
       </BrowserRouter>
     </div>
