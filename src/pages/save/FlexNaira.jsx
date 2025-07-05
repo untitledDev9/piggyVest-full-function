@@ -48,7 +48,7 @@ const FlexNaira = () => {
                   <div className=' flex gap-5 flex-col'>
                     <h1 className=' text-[36px] text-[#EA4FA2] font-bold leading-10'>Manage your money</h1>
                     <p className=' text-[#3d4f60] leading-8'>
-                      Organise, separate, name and categorise your emergency funds with Labels in Flex Nair</p>
+                      Organise, separate, name and categorise your emergency funds with Labels in Flex Naira</p>
                   </div>
                   <div className=' w-[300px]'><img src={Two} alt="" /></div>
                 </div>
