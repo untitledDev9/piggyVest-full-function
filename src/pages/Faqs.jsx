@@ -4,6 +4,7 @@ import PiggyLogo from "../assets/logo.svg";
 import Save from '../pages/Save';
 import Resources from "../pages/Resources";
 import ButtonCard from '../reuseable/ButtonCard';
+import Statement from './faqs/Statement';
 
 const Faqs = () => {
   return (
@@ -27,7 +28,9 @@ const Faqs = () => {
           bgColor='#1f1d22'
           />}
           />
-          <h1>faq</h1>
+          
+
+          <Statement />
     </div>
   )
 }
