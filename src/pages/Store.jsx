@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { FcLike } from "react-icons/fc";
+import Header from '../static/Header';
+import PiggyLogo from "../assets/logo.svg";
+import Save from './Save';
+import Resources from './Resources';
+import ButtonCard from '../reuseable/ButtonCard';
 
 const Store = () => {
 
@@ -24,9 +29,30 @@ const Store = () => {
   return (
     <div>
 
+       <Header
+          logo={PiggyLogo}
+          linkColor='#2b2b2b'
+          save={<Save />}
+          Invest="Invest"
+          Stories='Stories'
+          FAQs='FAQs'
+          Resources={<Resources />}
+          Store="Store"
+          button={<ButtonCard
+            title='Sign in'
+            textColor="#000"
+            border='1px solid black'
+          />}
+          button2={<ButtonCard
+            title='Create free account'
+            textColor="#fff"
+            bgColor='#1f1d22'
+          />}
+        />
+
       <div>
         <h1 className=' text-5xl font-bold text-center'>WELCOM TO PIGGY VEST STORE</h1>
-        imaage category title price
+        not done yet
       </div>
 
       <div className=' bg-blue-500 flex flex-wrap gap-10 justify-center items-center py-10'>
