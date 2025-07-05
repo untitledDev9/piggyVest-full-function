@@ -5,7 +5,6 @@ import NavPages from '../../components/pages/NavPages';
 import Opportunities from '../invest/Opportunities';
 import opporImage from "./images/imgi_37_image_2baa78cfe9.png";
 import Footer from '../../block/footer/Footer';
-import Join from '../../block/hompage/join/Join';
 import Company from '../../block/hompage/company/Company';
 import One from "../save/resuseable/images/imgi_19_IMG_5250_1_58c3dc85dd_66427f269f.png";
 import Two from "./resuseable/images/imgi_20_Frame10_3416f07a9c.png";
@@ -59,15 +58,12 @@ const SaveLock = () => {
         </div>
       </div>
 
-
-
       <Opportunities
         heading='Avoid temptations & lock your money.'
         bgColor="#2295F2"
         desc="Safelock allows you to set money aside for a fixed period of time without having access to it until maturity. It’s like having your own custom fixed deposit."
         image={opporImage}
       />
-      <Join />
       <Company />
       <Footer />
     </div>
