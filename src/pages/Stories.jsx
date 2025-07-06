@@ -4,6 +4,9 @@ import PiggyLogo from "../assets/logo.svg";
 import Save from '../pages/Save';
 import Resources from "../pages/Resources";
 import ButtonCard from '../reuseable/ButtonCard';
+import Company from '../block/hompage/company/Company';
+import Footer from '../block/footer/Footer';
+import StoriesPage from './stories/StoriesPage';
 
 
 const Stories = () => {
@@ -28,7 +31,10 @@ const Stories = () => {
           bgColor='#1f1d22'
           />}
           />
-          <h1>Stories</h1>
+          
+          <StoriesPage />
+          <Company />
+          <Footer />
     </div>
   )
 }
