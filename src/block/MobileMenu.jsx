@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const MobileMenu = () => {
   return (
-    <nav className=' flex flex-col justify-center items-center gap-10 px-16 pt-20 max-mobile:pt-8 pb-2 text-[16px] cursor-pointer
+    <nav className='  flex flex-col justify-center items-center gap-10 px-16 pt-20 max-mobile:pt-8 pb-2 text-[16px] cursor-pointer z-50
     '>
 
       

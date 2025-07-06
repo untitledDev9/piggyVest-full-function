@@ -35,7 +35,7 @@ const Store = () => {
 
   return (
     <div>
-
+<div className=''>
       <Header
         logo={PiggyLogo}
         linkColor='#2b2b2b'
@@ -52,13 +52,13 @@ const Store = () => {
         />}
         button2={<ButtonCard
           title='Create free account'
-          textColor="#fff"
+          textColor="#fff" 
           bgColor='#1f1d22'
         />}
       />
-
-      <div className=' my-22'>
-        <h1 className=' text-5xl font-bold text-center'>WELCOM TO PIGGY VEST STORE</h1>
+</div>
+      <div className='py-18'>
+        <h1 className='max-mobile:text-[25px] max-mobile: text-5xl font-bold text-center'>WELCOM TO PIGGY VEST STORE</h1>
       </div>
 
       <div className=' flex flex-wrap gap-14 justify-center items-center py-14 shadow-[0px_4px_20px_rgba(0,0,0,0.7)] '>

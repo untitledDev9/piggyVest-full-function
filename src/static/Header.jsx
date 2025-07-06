@@ -12,8 +12,8 @@ const Header = ({logo, linkColor, save, Invest, Stories,FAQs, Resources, Store, 
     setMenu(prev => !prev)
   }
   return (
-    <div className={` w-[100%] ${menu ? 'fixed' : ""} z-50 `}>
-      <nav className='flex justify-between items-center mx-auto px-16 max-Laptop:px-8 py-5 max-tablet:py-6 max-w-[1280px]'>
+    <div className={` w-[100%] ${menu ? 'fixed' : ""} z-[1000] `}>
+      <nav className=' bg-[#F2F7F8] flex justify-between items-center mx-auto px-16 max-Laptop:px-8 py-5 max-tablet:py-6 max-w-[1280px]'>
         <div className='flex justify-between items-center gap-16 max-Laptop:gap-12'>
           <div>
             <Link to='/' className=''>
