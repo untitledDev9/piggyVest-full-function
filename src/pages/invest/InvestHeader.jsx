@@ -29,9 +29,9 @@ const InvestHeader = ({bgColor, logo}) => {
     <div 
     style={{
       backgroundColor: (`${scrolled ? "#fff" : bgColor}`) || (`${scrolled ? "#fff" : "#7913E5"}`),
-      color:`${scrolled ? "#000" : "#fff"}`,
+      // color:`${scrolled ? "#000" : "#fff"}`,
     }}
-    className={`sticky top-0 z-50 w-full text-black max-tablet:text-black'} ${scrolled ? "shadow-[0_4px_10px_rgba(0,0,0,0.2)]" : ""} transition-all duration-700 ease-in-out`}>
+    className={`sticky top-0 z-50 w-full ${scrolled ? "shadow-[0_4px_10px_rgba(0,0,0,0.2)]" : ""} transition-all duration-700 ease-in-out`}>
       <div className={` w-[100%] ${menu ? 'fixed' : ""} z-50 `}>
         <nav className='flex justify-between items-center mx-auto px-16 max-Laptop:px-8 py-5 max-tablet:py-6 max-w-[1280px]'>
           <div className='flex justify-between items-center gap-16 max-Laptop:gap-12'>
@@ -45,7 +45,7 @@ const InvestHeader = ({bgColor, logo}) => {
                 style={{
 
                 }}
-                className='max-tablet:hidden flex gap-6 font-[500] text-[16px] max-sLaptop:text-[15px]'>
+                className={`max-tablet:hidden flex gap-6 font-[500] text-[16px] max-sLaptop:text-[15px] ${scrolled ? "text-[#000]" : "text-[#fff]"}`}>
                 <nav> <Save /> </nav>
                 <Link to='/invest'><nav>Invest</nav></Link>
                 <Link to='/stories'><nav>Stories</nav></Link>
