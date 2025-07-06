@@ -28,7 +28,7 @@ const Resources = () => {
 			</span>
 
 			{openResources && (
-				<div className=' text-[#5b5b5b] absolute top-6 -left-16 max-tablet:-left-28
+				<div className=' text-[#5b5b5b] absolute top-6 -left-16 max-tablet:-left-28 z-50 
 				max-mobile:static 
 				'>
 					<div className=' bg-white grid grid-cols-2 gap-10  w-max py-10 px-8 rounded-2xl shadow-[0_4px_10px_rgba(0,0,0,0.3)]
