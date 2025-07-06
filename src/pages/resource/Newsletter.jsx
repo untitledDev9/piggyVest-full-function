@@ -49,14 +49,14 @@ const Newsletter = () => {
           <p className='font-semibold text-xl'>Scroll down</p>
         </div>
       </div>
-<div className=' bg-white'>
-      <div className=' max-w-[1240px] py-18 mb-38 mx-auto px-16 max-tablet:mb-20'>
+      <div className=' bg-white'>
+        <div className=' max-w-[1240px] py-18 mb-38 mx-auto px-16 max-tablet:mb-20'>
           <div>
             <div>
               <h2 className=' text-2xl text-blue-500'>The Archive</h2>
               <h2 className=' text-6xl max-tablet:text-[35px]'>Read Past</h2>
             </div>
-            <div><input type="text" placeholder='Search for an issue' className=' py-3 pl-4 pr-38 rounded-xl mb-10 bg-[#F4F5F6]'/></div>
+            <div><input type="text" placeholder='Search for an issue' className=' py-3 pl-4 pr-38 rounded-xl mb-10 bg-[#F4F5F6]' /></div>
           </div>
           <div className=' flex flex-col border border-gray-200 rounded-2xl'>
             <div className=' flex justify-between items-center px-7 py-5'>
@@ -65,7 +65,7 @@ const Newsletter = () => {
             </div>
             <div className=' flex bg-[#F6FAFF] justify-between px-7 py-5 items-center'>
               <div className=' w-[80%] flex gap-3 items-center'>
-                <img src={One} alt=""  className="rounded-2xl w-[40px] h-[40px] object-cover"  />
+                <img src={One} alt="" className="rounded-2xl w-[40px] h-[40px] object-cover" />
                 <p className=' text-gray-500
                 max-tablet:text-[9px]
                 '>Issue #03</p>
@@ -81,7 +81,7 @@ const Newsletter = () => {
             </div>
             <div className=' flex justify-between px-7 py-5 items-center'>
               <div className=' w-[80%] flex gap-3 items-center'>
-                <img src={Two} alt=""  className="rounded-2xl w-[40px] h-[40px] object-cover"  />
+                <img src={Two} alt="" className="rounded-2xl w-[40px] h-[40px] object-cover" />
                 <p className=' text-gray-500
                 max-tablet:text-[9px]
                 '>Issue #02</p>
@@ -112,8 +112,8 @@ const Newsletter = () => {
               </div>
             </div>
           </div>
+        </div>
       </div>
-</div>
       <div className=' rounded-3xl px-10 flex items-center relative max-w-[1240px] bg-[#1843D0] h-[550px] mx-auto
         max-tablet:flex-col max-tablet:py-7 max-mobile:mb-28
         '>
