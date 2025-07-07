@@ -73,7 +73,7 @@ const InvestHeader = ({bgColor, logo}) => {
             </Link>
           </div>
           <div onClick={toggleMenu} className={`hidden max-tablet:block cursor-pointer ${scrolled ? 'text-black' : 'text-white'}`}>
-            {/* <RiMenuLine size={30}  /> */}
+            <RiMenuLine size={30}  />
           </div>
         </nav>
 
